@@ -1,0 +1,186 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  background-color: #dcdcdc;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1500px;
+  margin:0 30px;
+}
+
+header {
+  height:80px;
+  background-color: #fff0f5;
+}
+
+header img {
+  float:left;
+  height:80px;
+  margin-right:50px
+}
+
+header sup {
+  display: inline-block;
+  font-size:20px;
+  line-height: 80px;
+}
+
+.header_info a{
+  color:black;
+}
+
+h1{
+  font-size: 24px;
+  border-bottom: 3px solid #8fbc8f;
+  margin:30px 0 15px 0;
+  width:
+}
+
+.menus{
+  display: flex;
+  margin:0px auto;
+  width:80%;
+  position:absolute;
+}
+
+.menus a{
+
+}
+
+.menus img{
+  width:80%;
+  margin:0 auto;
+}
+
+.menu{
+  position: relative;
+  background-color: #f0f8ff;
+  text-align: center;
+  display: inline-block;
+  flex: auto;
+  margin:20px 30px;
+  padding: 20px;
+  color:black;
+}
+
+.menu:hover{
+  transform:translateY(-10px);
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+}
+
+.menu h2{
+  font-size: 20px;
+}
+
+.menu p{
+  font-size:20px;
+  text-align: left;
+}
+
+.clear{
+  clear: left;
+}
+
+.reaction{
+  height:400px;
+}
+
+.shear{
+  height:400px;
+}
+
+.bending{
+  height:400px;
+  margin-bottom:50px;
+}
+
+footer{
+  height:90px;
+  background-color: #90ee90;
+}
+
+footer img{
+  height:50px;
+  float:left;
+  margin:20px 0;
+}
+
+footer p{
+  margin-top:50px;
+  font-size:17px;
+  color:#696969;
+  float:right;
+}
+
+.infomation{
+  margin-left: 30px;
+}
+
+.top_message p{
+  margin-left:30px;
+}
+
+.btn-wrapper{
+  float:right;
+  margin-top:18px;
+}
+
+.btn{
+  display: inline-block;
+  color:#fff;
+  padding:8px 15px;
+  opacity:0.8;
+  border-radius: 4px;
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+.btn:active{
+  box-shadow: none;
+  position:relative;
+  top:4px;
+}
+
+.Twitter{
+  background-color:#1da1f2;
+  margin-right: 10px;
+  box-shadow:0 4px #1A638D;
+}
+
+.Github{
+  background-color:#4b4444;
+  box-shadow:0 4px #1b1818;
+}
+
+.making{
+  background-color: #e6e6fa;
+}
+
+.learning p{
+  margin-left:30px;
+}
+
+.learning{
+  margin-bottom: 30px;
+}

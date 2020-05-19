@@ -1,0 +1,91 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  background-color: #dcdcdc;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  margin:0 30px;
+}
+
+header {
+  height:80px;
+  background-color: #fff0f5;
+}
+
+header img {
+  float:left;
+  height:80px;
+  margin-right:50px
+}
+
+header sup {
+  display: inline-block;
+  font-size:20px;
+  line-height: 80px;
+}
+
+.header_info a{
+  color:black;
+}
+
+h1{
+  font-size: 24px;
+  border-bottom: 3px solid #8fbc8f;
+  margin:30px 0 30px 30px;
+  width:
+}
+
+footer{
+  height:90px;
+  background-color: #90ee90;
+}
+
+footer img{
+  height:50px;
+  float:left;
+  margin:20px 0;
+}
+
+footer p{
+  margin:15px 0;
+  font-size:17px;
+  color:#696969;
+  float:right;
+}
+
+.wrapper{
+  height:700px;
+  background-image: url(../img/making.jpg);
+  background-size:cover;
+}
+
+h2{
+  color:#f0f8ff;
+  margin: 240px 60px;
+  margin:300px 50px;
+  display:inline-block;
+  font-size: 24px;
+  padding:20px 40px;
+  background-color: #0c5074;
+  background-clip:padding-box;
+  border:20px solid rgba(0,167,255,.6);
+}
